@@ -4,10 +4,9 @@ body {font-family: Arial, sans-serif; text-align: center;
 .galery { list-style: none; display: flex; flex-wrap: wrap; 
     justify-content: center; padding: 0; gap: 10px}
     .galery li {display: inline-block;}
-    .galery img {width: 200px; height: 200px; object-fit: cover;
-        border-radius: 10px; cursor: pointer; transition-duration: 0.3s;}
+    .galery img {width: 200px; height: 150px; object-fit: cover;
+        border-radius: 8px; cursor: pointer; transition-duration: 0.3s;}
 .galery img:hover {transform: scale(1.1);}
-#info {display: none; position: fixed; top: 0; left: 0; 
-    width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;}
+#info {margin-top: 20px; padding: 10px; background-color: white;
+border: 1px solid #ccc; display: inline-block; border-radius: 8px;}
 .hidden {display: none;}
